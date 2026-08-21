@@ -1,0 +1,14 @@
+{
+  "network": "studionet",
+  "contractName": "ProofLensAttestation",
+  "source": "contracts/prooflens_attestation.py",
+  "state": "active",
+  "address": "0xeC345794B787fEb03Bb05dB374B0624591608977",
+  "transactionHash": "",
+  "owner": "",
+  "deployedAt": "",
+  "explorer": "https://explorer-studio.genlayer.com/address/0xeC345794B787fEb03Bb05dB374B0624591608977",
+  "writeMethod": "attest_wallet",
+  "viewMethods": ["get_report", "get_latest_report_id", "get_report_count"],
+  "notes": "Writes are owner-gated: Only the ProofLens scan relayer can submit reports. The evidence bundle this app seals (schemaVersion prooflens.v2, verification blockscout.v1) matches the contract verification surface. Keep src/lib/config.ts in sync with this record."
+}
