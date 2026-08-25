@@ -1,0 +1,10 @@
+{
+  "network": "studionet",
+  "contractName": "ProofLensIntelligenceV2Legacy",
+  "state": "legacy",
+  "address": "0x2D72e465C1D932D171A1AB983D028208129242BF",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x2D72e465C1D932D171A1AB983D028208129242BF",
+  "writeMethod": "analyze_wallet",
+  "policyVersion": "prooflens-risk-v2",
+  "reason": "Superseded by the v3 deployment that enforces sample integrity and tolerates isolated Blockscout counter failures."
+}

@@ -1,0 +1,15 @@
+{
+  "network": "studionet",
+  "contractName": "ProofLensIntelligence",
+  "source": "contracts/prooflens_intelligence.py",
+  "state": "active",
+  "address": "0xC4CeEd79FcB9Eda180e961099aa96E0f2eDE6EB5",
+  "transactionHash": "",
+  "owner": "public submission",
+  "deployedAt": "",
+  "explorer": "https://explorer-studio.genlayer.com/address/0xC4CeEd79FcB9Eda180e961099aa96E0f2eDE6EB5",
+  "writeMethod": "analyze_wallet",
+  "viewMethods": ["get_report", "get_latest_report_id", "get_report_count"],
+  "policyVersion": "prooflens-risk-v3",
+  "notes": "Live prooflens-risk-v3 deployment with sample-integrity enforcement and tolerant Blockscout counter fetching. The public analyze_wallet method accepts compact evidence directly. This address is hard-pinned in src/lib/config.ts and api/_lib/env.ts; runtime overrides are deliberately disabled to prevent stale deployments."
+}

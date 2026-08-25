@@ -1,0 +1,9 @@
+{
+  "network": "studionet",
+  "contractName": "ProofLensAttestationLegacy",
+  "state": "legacy",
+  "address": "0xeC345794B787fEb03Bb05dB374B0624591608977",
+  "explorer": "https://explorer-studio.genlayer.com/address/0xeC345794B787fEb03Bb05dB374B0624591608977",
+  "writeMethod": "attest_wallet",
+  "reason": "Owner-gated URL-based deployment retained only for audit history. The application no longer calls it."
+}
